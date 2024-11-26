@@ -125,8 +125,10 @@ class _CartPageState extends State<CartPage> {
                         .deleteCartItem(product.cartId);
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(
-                          content: Text(
-                              "${product.productCartName} sepetten silindi.")),
+                        content: Text(
+                            "${product.productCartName} sepetten silindi."),
+                        duration: Duration(milliseconds: 700),
+                      ),
                     );
                     removeCartItem(product.cartId);
                   },

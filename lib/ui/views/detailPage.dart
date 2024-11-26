@@ -186,6 +186,7 @@ class _DetailPageState extends State<DetailPage> {
                             SnackBar(
                               content: Text(
                                   "${product.productName} sepete eklendi."),
+                              duration: Duration(milliseconds: 700),
                             ),
                           );
                         },

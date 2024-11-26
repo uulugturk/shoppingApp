@@ -254,6 +254,8 @@ class _HomePageState extends State<HomePage> {
                                                 SnackBar(
                                                   content: Text(
                                                       "${product.productName} sepete eklendi."),
+                                                  duration: Duration(
+                                                      milliseconds: 700),
                                                 ),
                                               );
                                             },
