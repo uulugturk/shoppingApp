@@ -185,7 +185,7 @@ class _DetailPageState extends State<DetailPage> {
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
                               content: Text(
-                                  "${product.productName} sepete eklendi."),
+                                  "${product.productBrand} ${product.productName} sepete eklendi."),
                               duration: Duration(milliseconds: 700),
                             ),
                           );

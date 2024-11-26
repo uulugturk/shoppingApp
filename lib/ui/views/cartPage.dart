@@ -126,7 +126,7 @@ class _CartPageState extends State<CartPage> {
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(
                         content: Text(
-                            "${product.productCartName} sepetten silindi."),
+                            "${product.productCartBrand} ${product.productCartName} sepetten silindi."),
                         duration: Duration(milliseconds: 700),
                       ),
                     );

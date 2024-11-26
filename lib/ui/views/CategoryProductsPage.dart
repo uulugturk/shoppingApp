@@ -252,7 +252,7 @@ class _CategoryProductsPageState extends State<CategoryProductsPage> {
                                             .showSnackBar(
                                           SnackBar(
                                             content: Text(
-                                                "${product.productName} sepete eklendi."),
+                                                "${product.productBrand} ${product.productName} sepete eklendi."),
                                             duration:
                                                 Duration(milliseconds: 700),
                                           ),
